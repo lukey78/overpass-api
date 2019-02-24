@@ -1,5 +1,11 @@
 FROM ubuntu:16.04
-MAINTAINER Frank Villaro-Dixon <docker-overpass-api@vi-di.fr>
+MAINTAINER Frank Villaro-Dixon <docker-overpass-api@vi-di.fr>, updated by Jens Hassler <info@adventurelog.io>
+
+ENV DB_DIR=/overpass_DB
+ENV CLONE_SERVER=https://dev.overpass-api.de/api_drolbr
+ENV REPLICATE_SERVER=https://planet.osm.org/replication/minute
+ENV VHOST_EMAIL=info@yourserver.com
+ENV VHOST_FQDN=https://your-overpass.api.de
 
 RUN apt-get update #
 

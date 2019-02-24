@@ -34,4 +34,3 @@ chmod uog+rwX $DBDIR/*
 chmod uog+rwx /*.sh
 
 su overpass_api -c '/launch_overpass.sh'
-
