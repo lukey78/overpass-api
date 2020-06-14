@@ -1,5 +1,12 @@
 # Overpass API docker image
 
+## DEPRECATED IMAGE
+
+This image is deprecated. Please use the much better one:
+
+https://github.com/wiktorn/Overpass-API
+
+
 ## Note
 
 This is based on [https://github.com/Frankkkkk/docker-overpass-api].
